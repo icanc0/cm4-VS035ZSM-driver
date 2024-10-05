@@ -6700,7 +6700,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 90.17) (xy 273.05 90.17)
+			(xy 250.19 90.17) (xy 260.35 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6793,6 +6793,7 @@
 	)
 	(label "DSI0_DATA.0_P"
 		(at 90.17 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6825,6 +6826,7 @@
 	)
 	(label "DSI0_CLK.N"
 		(at 90.17 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6835,6 +6837,7 @@
 	)
 	(label "LED_PWR.PWM"
 		(at 252.73 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6889,6 +6892,7 @@
 	)
 	(label "DSI0_DATA.1_N"
 		(at 90.17 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6899,6 +6903,7 @@
 	)
 	(label "DSI0_DATA.2_N"
 		(at 90.17 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6920,6 +6925,7 @@
 	)
 	(label "DSI0_DATA.3_P"
 		(at 15.24 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6930,6 +6936,7 @@
 	)
 	(label "DSI0_DATA.1_P"
 		(at 90.17 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6951,6 +6958,7 @@
 	)
 	(label "DSI0_DATA.2_P"
 		(at 90.17 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6983,6 +6991,7 @@
 	)
 	(label "DSI0_DATA.3_N"
 		(at 15.24 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6993,6 +7002,7 @@
 	)
 	(label "DSI0_DATA.0_N"
 		(at 90.17 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7047,6 +7057,7 @@
 	)
 	(label "DSI0_CLK.P"
 		(at 90.17 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7878,7 +7889,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 90.17 90)
+		(at 260.35 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7887,7 +7898,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dc75fc9-6f29-4f06-992b-b30fd7f3d8fa")
 		(property "Reference" "#PWR0313"
-			(at 279.4 90.17 0)
+			(at 266.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +7907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 90.1699 90)
+			(at 264.16 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +7916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 90.17 0)
+			(at 260.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +7925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 90.17 0)
+			(at 260.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +7934,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 90.17 0)
+			(at 260.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
