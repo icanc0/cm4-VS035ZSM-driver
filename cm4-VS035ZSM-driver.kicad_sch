@@ -5,9 +5,19 @@
 	(uuid "9e206693-3fee-4fd4-91e0-40fbbe689518")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 210.82 35.56) (xy 214.63 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db34c4f-52ca-4151-910a-84c89df86120")
+	)
 	(sheet
-		(at 151.765 22.225)
-		(size 41.91 33.02)
+		(at 168.91 21.59)
+		(size 41.91 20.574)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +32,7 @@
 		)
 		(uuid "00052e95-1e3a-4aeb-be54-84e7c77d41fc")
 		(property "Sheetname" "high-speed"
-			(at 151.765 21.5134 0)
+			(at 168.91 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +41,22 @@
 			)
 		)
 		(property "Sheetfile" "high-speed.kicad_sch"
-			(at 151.765 55.8296 0)
+			(at 168.91 42.7486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{LED_PWR}" input
+			(at 210.82 35.56 0)
+			(uuid "6f8e47fc-91dc-4d17-9a6a-e7dd4dbf1b01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +68,50 @@
 		)
 	)
 	(sheet
-		(at 213.995 21.59)
-		(size 43.18 33.655)
+		(at 213.36 62.23)
+		(size 44.45 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fa9040c-34f0-4669-b57a-2852a4acb990")
+		(property "Sheetname" "References"
+			(at 213.36 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "references.kicad_sch"
+			(at 213.36 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-VS035ZSM-driver"
+				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.503 21.971)
+		(size 26.543 20.193)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +126,7 @@
 		)
 		(uuid "d9fbf635-691b-46f9-b543-403d043b1042")
 		(property "Sheetname" "MIPI-screen"
-			(at 213.995 20.8784 0)
+			(at 214.503 21.2594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +135,22 @@
 			)
 		)
 		(property "Sheetfile" "MIPI-screen.kicad_sch"
-			(at 213.995 55.8296 0)
+			(at 214.503 42.7486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{LED_PWR}" input
+			(at 214.503 35.56 180)
+			(uuid "79dfe334-ae53-4b8d-90c1-903edaaf830e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
