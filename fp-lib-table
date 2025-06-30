@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints")(options "")(descr ""))
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "custom-graphics")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/custom-graphics.pretty")(options "")(descr ""))
+  (lib (name "poka-yoke_rxtx")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/poka-yoke_rxtx.pretty")(options "")(descr ""))
 )
