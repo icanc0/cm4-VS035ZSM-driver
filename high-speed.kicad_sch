@@ -5137,26 +5137,6 @@
 		)
 		(uuid "223259da-a2af-45ec-89e5-3f4e779f701f")
 	)
-	(label "DSI0_DATA.3_P"
-		(at 116.84 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "380fb0d1-a086-4c7a-95c9-eeda2688fa28")
-	)
-	(label "DSI0_DATA.2_N"
-		(at 116.84 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39c3ec2e-91d2-4c59-ad36-fd9c681f473a")
-	)
 	(label "DSI0_DATA.3_N"
 		(at 204.47 71.12 0)
 		(effects
@@ -5207,16 +5187,6 @@
 		)
 		(uuid "688c66f0-816b-428a-a6f9-bf882c1a84f4")
 	)
-	(label "DSI0_DATA.2_P"
-		(at 116.84 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c13f54a-aaca-4d64-8981-9b04b35d6f5c")
-	)
 	(label "DSI0_DATA.0_N"
 		(at 116.84 46.99 0)
 		(effects
@@ -5247,15 +5217,15 @@
 		)
 		(uuid "87ac719a-1fb5-4bbb-b223-5ff05dd968c9")
 	)
-	(label "DSI0_DATA.3_N"
-		(at 116.84 77.47 0)
+	(label "DSI0_DATA.2_P"
+		(at 116.84 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "889720eb-7387-4df1-a5ee-7a65e4b57a48")
+		(uuid "88b9d64a-50dd-433c-b323-b3ec67a760d3")
 	)
 	(label "DSI0_DATA.1_N"
 		(at 204.47 83.82 0)
@@ -5266,6 +5236,26 @@
 			(justify left bottom)
 		)
 		(uuid "8cfd61be-8ca1-4312-bac5-2e61e40eb761")
+	)
+	(label "DSI0_DATA.2_N"
+		(at 116.84 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97802ce4-7da4-4158-952d-6554d4cbde36")
+	)
+	(label "DSI0_DATA.3_N"
+		(at 116.84 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a596ba42-f47f-434e-9c8b-7a2ec97fb888")
 	)
 	(label "LED_PWR.K"
 		(at 252.73 88.9 0)
@@ -5296,6 +5286,16 @@
 			(justify left bottom)
 		)
 		(uuid "b45ff862-5230-4801-9081-457ba46b54fd")
+	)
+	(label "DSI0_DATA.3_P"
+		(at 116.84 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6604d4e-1607-4d0d-ab1d-dc08ffee9d8a")
 	)
 	(label "DSI0_DATA.3_P"
 		(at 204.47 76.2 0)
@@ -5596,7 +5596,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 8e500e44-0459-4415-aa20-a2b7e00cb326)
+			(uuid c834c1e4-b33e-4cf2-a0b0-583c5ee61694)
 		)
 	)
 	(netclass_flag ""
