@@ -48,4 +48,7 @@
   (lib (name "1N5819WS")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/1N5819WS.kicad_sym")(options "")(descr ""))
   (lib (name "TPS65132WRVCR_C2876379")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/TPS65132WRVCR_C2876379.kicad_sym")(options "")(descr ""))
   (lib (name "B5817WS_C7420329")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/B5817WS_C7420329.kicad_sym")(options "")(descr ""))
+  (lib (name "PZ254-2-04-WS")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/PZ254-2-04-WS.kicad_sym")(options "")(descr ""))
+  (lib (name "KF1027B-04P-G00-DFT-01B")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/KF1027B-04P-G00-DFT-01B.kicad_sym")(options "")(descr ""))
+  (lib (name "PZ254-2-08-WS")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/PZ254-2-08-WS.kicad_sym")(options "")(descr ""))
 )
