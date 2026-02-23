@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.0-rc1.1*%
+%TF.CreationDate,2026-02-23T16:24:08-05:00*%
+%TF.ProjectId,cm4-VS035ZSM-driver,636d342d-5653-4303-9335-5a534d2d6472,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.0-rc1.1) date 2026-02-23 16:24:08*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X99300000Y-82300000D02*
+X169300000Y-82300000D01*
+X169300000Y-142300000D01*
+X99300000Y-142300000D01*
+X99300000Y-82300000D01*
+M02*
