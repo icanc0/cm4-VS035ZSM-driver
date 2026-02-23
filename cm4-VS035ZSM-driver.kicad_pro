@@ -108,6 +108,7 @@
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -489,6 +490,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -579,6 +581,36 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DSI0_CLK.N": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_CLK.P": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.0_N": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.0_P": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.1_N": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.1_P": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.2_N": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.2_P": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.3_N": [
+        "100Ω_Diff"
+      ],
+      "/DSI0_DATA.3_P": [
+        "100Ω_Diff"
+      ],
       "/high-speed/DSI0_CLK.N": [
         "100Ω_Diff"
       ],
@@ -812,18 +844,6 @@
     [
       "9e206693-3fee-4fd4-91e0-40fbbe689518",
       "Root"
-    ],
-    [
-      "d9fbf635-691b-46f9-b543-403d043b1042",
-      "MIPI-screen"
-    ],
-    [
-      "00052e95-1e3a-4aeb-be54-84e7c77d41fc",
-      "high-speed"
-    ],
-    [
-      "8fa9040c-34f0-4669-b57a-2852a4acb990",
-      "References"
     ]
   ],
   "text_variables": {}
