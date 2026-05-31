@@ -1,11 +1,11 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "9e206693-3fee-4fd4-91e0-40fbbe689518")
 	(paper "A3")
 	(lib_symbols
-		(symbol "245863050104829+:245863050104829+_missing_gnd"
+		(symbol "245863050104829+:245863050104829+"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -33,7 +33,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "footprints:245863050104829_missing pads"
+			(property "Footprint" "245863050104829"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -128,7 +128,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "245863050104829+_missing_gnd_1_1"
+			(symbol "245863050104829+_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -71.12)
@@ -9741,330 +9741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "245863050104829+:245863050104829+_missing_gnd")
-		(at 214.63 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a1c1683-a440-47bc-a25c-a8156b4d1713")
-		(property "Reference" "J2"
-			(at 227.33 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "245863050104829+"
-			(at 227.33 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:245863050104829_missing pads"
-			(at 236.22 233.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/909/5863-1602212.pdf"
-			(at 236.22 333.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Board to Board & Mezzanine Connectors RECPT 0.35mm Pitch 50pos 8.0mm Height"
-			(at 214.63 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.86"
-			(at 236.22 533.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "346-245863050104829+"
-			(at 236.22 633.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/245863050104829%2b?qs=PzGy0jfpSMtGhQjnwghOpA%3D%3D"
-			(at 236.22 733.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 236.22 833.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "245863050104829+"
-			(at 236.22 933.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Field4" ""
-			(at 214.63 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 214.63 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12b4f667-c156-4d41-abf6-0f4e6bb3ceed")
-		)
-		(pin "21"
-			(uuid "e19c612f-86a5-4388-a9bb-f720c877e7bd")
-		)
-		(pin "18"
-			(uuid "854b3ea7-5970-435f-b908-da0306a4656a")
-		)
-		(pin "25"
-			(uuid "64802946-b6bf-4f52-baf2-d98fcf92a136")
-		)
-		(pin "17"
-			(uuid "8eb632de-06fe-452a-994f-bcde73039033")
-		)
-		(pin "32"
-			(uuid "4b6b7548-8570-4917-a7ed-d6a2f6d57f25")
-		)
-		(pin "33"
-			(uuid "4b2c9bf3-2e00-46d5-97e2-ea9f64c81347")
-		)
-		(pin "24"
-			(uuid "d2bc1273-fc2e-45f0-b15f-478d49f9e189")
-		)
-		(pin "20"
-			(uuid "8a8fccaa-1468-4236-a150-8f9275a3b375")
-		)
-		(pin "14"
-			(uuid "4ff3c381-60c8-4eb6-b396-11bb7d0a9f36")
-		)
-		(pin "16"
-			(uuid "f1985f20-aa9b-4633-b6bd-511a625f51e6")
-		)
-		(pin "2"
-			(uuid "4d7462a8-5fe3-4882-bbcb-a9059a01cb42")
-		)
-		(pin "15"
-			(uuid "5363339f-df4e-468d-b7e4-76d87d7f4ff6")
-		)
-		(pin "12"
-			(uuid "2f9d1f33-1253-4083-9707-620af5720542")
-		)
-		(pin "36"
-			(uuid "8f37d73b-24a1-4663-b1b5-09635ff6fa89")
-		)
-		(pin "37"
-			(uuid "56b0f9fc-a43e-4a7e-91b5-abf121e0e06c")
-		)
-		(pin "13"
-			(uuid "4dcfcc5d-e4af-49d7-b6d6-7921c2b5cd43")
-		)
-		(pin "30"
-			(uuid "bbee2b39-7e3f-47c5-a9e0-c7ae27bcc280")
-		)
-		(pin "31"
-			(uuid "a387d5a4-a2c8-45ea-9f4e-2a31f9800305")
-		)
-		(pin "11"
-			(uuid "f0fb645f-1a63-4203-8e80-54ab3245c5da")
-		)
-		(pin "43"
-			(uuid "36d197b7-81ab-4002-99a3-15b0069d02ea")
-		)
-		(pin "44"
-			(uuid "ec43f7d0-6602-4647-bd0e-47e679310323")
-		)
-		(pin "45"
-			(uuid "edf423f9-69c4-473e-ba61-c05576905e31")
-		)
-		(pin "34"
-			(uuid "d149d470-fab2-4486-9a14-5fdabb85f399")
-		)
-		(pin "35"
-			(uuid "fb432173-90c5-4a1f-a305-258db4958e1c")
-		)
-		(pin "10"
-			(uuid "d09644ff-18d0-408c-911d-ff3a3b273b9c")
-		)
-		(pin "23"
-			(uuid "b2e8593b-d2e8-4be8-91a4-a7133d193522")
-		)
-		(pin "19"
-			(uuid "c0f38130-8895-4668-96a3-7fe7e9ab4c53")
-		)
-		(pin "27"
-			(uuid "f8e595ca-5b8e-45fa-9c26-2119994bb1c0")
-		)
-		(pin "28"
-			(uuid "c3573fbb-081f-4f29-998c-767f0acfdad7")
-		)
-		(pin "4"
-			(uuid "e93916ee-2721-4768-b0d0-ba1ab09b1937")
-		)
-		(pin "26"
-			(uuid "11600091-e7ef-4eee-bafc-228e390b7a3e")
-		)
-		(pin "40"
-			(uuid "cc5c022b-30ab-463b-827b-97d5dbc38669")
-		)
-		(pin "41"
-			(uuid "62d56890-69ac-4342-b25a-e88f06984b84")
-		)
-		(pin "42"
-			(uuid "1c1f1ef4-f75d-4855-a71b-2d5b1d21d5f8")
-		)
-		(pin "22"
-			(uuid "24b6189b-01c9-48aa-bca2-2e025bff4057")
-		)
-		(pin "29"
-			(uuid "d5357048-6050-493a-b335-fa9c36ead8b1")
-		)
-		(pin "3"
-			(uuid "35623367-d13a-43d4-be1b-dd3216250415")
-		)
-		(pin "38"
-			(uuid "6e05cf79-b1bc-4e9f-86e8-56a0bfaed673")
-		)
-		(pin "39"
-			(uuid "3509078f-0793-4b2a-9ddc-364651fdbfab")
-		)
-		(pin "46"
-			(uuid "57496b9a-02b3-4bbb-b421-e049b838395e")
-		)
-		(pin "47"
-			(uuid "520f0c3b-4dc4-4fd9-a0d4-853b399a0240")
-		)
-		(pin "48"
-			(uuid "2928012d-5935-4203-8c74-f04074641144")
-		)
-		(pin "49"
-			(uuid "fe280640-e55b-47b0-af8f-36a99bcb96fe")
-		)
-		(pin "5"
-			(uuid "9ce68d55-c33a-4052-b132-00f25de2d775")
-		)
-		(pin "50"
-			(uuid "f3201c6c-e184-4e9c-808c-2581b6161dcc")
-		)
-		(pin "6"
-			(uuid "4ed09e2c-3755-497c-8d94-a0e9d9174d04")
-		)
-		(pin "7"
-			(uuid "cff25b99-dcc4-423a-91ab-78c792b7eb72")
-		)
-		(pin "8"
-			(uuid "40b203ce-93cc-4311-aa37-950fbca00bd8")
-		)
-		(pin "9"
-			(uuid "29b96089-4bbf-492a-86e0-8ae1c50016a1")
-		)
-		(pin "MP1"
-			(uuid "26156f92-3224-4db6-a301-0f68823775a6")
-		)
-		(pin "MP2"
-			(uuid "4475bcb4-9dad-42a2-bece-c8240885c21e")
-		)
-		(pin "MP3"
-			(uuid "631034c6-058a-453d-8aeb-f06c3d54138f")
-		)
-		(pin "MP4"
-			(uuid "6018b31f-34dd-4cd7-8a38-61b935c4cb14")
-		)
-		(pin "MP5"
-			(uuid "691b8c30-e6c1-4921-91b5-1a58bcdbf31b")
-		)
-		(pin "MP6"
-			(uuid "acd62522-c57a-43f6-90c8-0f58f33fed1d")
-		)
-		(instances
-			(project "cm4-VS035ZSM-driver"
-				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 25.4 38.1 0)
 		(unit 1)
@@ -10212,7 +9888,7 @@
 			(uuid "52fed267-da0c-49c6-b4f6-159d2e12e0be")
 		)
 		(instances
-			(project ""
+			(project "cm4-VS035ZSM-driver"
 				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
 					(reference "#PWR030")
 					(unit 1)
@@ -10789,7 +10465,7 @@
 			(uuid "45a3787a-687d-47a5-adf2-41fabc448443")
 		)
 		(instances
-			(project ""
+			(project "cm4-VS035ZSM-driver"
 				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
 					(reference "U4")
 					(unit 1)
@@ -10867,7 +10543,7 @@
 			(uuid "5e66939b-c966-459a-8aa2-7200a7bbf335")
 		)
 		(instances
-			(project ""
+			(project "cm4-VS035ZSM-driver"
 				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
 					(reference "#PWR031")
 					(unit 1)
@@ -12759,7 +12435,7 @@
 			(uuid "21a5dc63-535c-43bc-94c4-12f5ef80afc6")
 		)
 		(instances
-			(project ""
+			(project "cm4-VS035ZSM-driver"
 				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
 					(reference "U6")
 					(unit 1)
@@ -13229,7 +12905,7 @@
 			(uuid "72c824c0-1146-48a8-a217-b3146f55ce21")
 		)
 		(instances
-			(project ""
+			(project "cm4-VS035ZSM-driver"
 				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
 					(reference "#FLG04")
 					(unit 1)
@@ -13339,6 +13015,310 @@
 		)
 	)
 	(symbol
+		(lib_id "245863050104829+:245863050104829+")
+		(at 214.63 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b52958-4ee6-47e5-9aec-9ce62cec5e05")
+		(property "Reference" "J2"
+			(at 227.33 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "245863050104829+"
+			(at 227.33 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "245863050104829"
+			(at 236.22 233.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/909/5863-1602212.pdf"
+			(at 236.22 333.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Board to Board & Mezzanine Connectors RECPT 0.35mm Pitch 50pos 8.0mm Height"
+			(at 214.63 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.86"
+			(at 236.22 533.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "346-245863050104829+"
+			(at 236.22 633.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/245863050104829%2b?qs=PzGy0jfpSMtGhQjnwghOpA%3D%3D"
+			(at 236.22 733.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 236.22 833.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "245863050104829+"
+			(at 236.22 933.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "41"
+			(uuid "726b7fa9-0bb2-490f-8974-8ab63fce83f0")
+		)
+		(pin "31"
+			(uuid "387b8358-7bfa-4752-b747-f2414f894d27")
+		)
+		(pin "28"
+			(uuid "c06e928e-8ed0-4028-812e-0f1f3d57b252")
+		)
+		(pin "MP3"
+			(uuid "f9f20c2e-071e-4ff2-ac2a-88a59430ddb0")
+		)
+		(pin "13"
+			(uuid "cab41ede-bf45-46fe-8793-967e8a80bebd")
+		)
+		(pin "38"
+			(uuid "49582ca3-c42b-41c1-94a5-b0c87c99c4ef")
+		)
+		(pin "MP2"
+			(uuid "b16fa1bb-763e-492e-95d3-38509afbb343")
+		)
+		(pin "45"
+			(uuid "b228d6e7-9f25-4e63-92c2-b9f21222e392")
+		)
+		(pin "9"
+			(uuid "93e034db-6e41-4c4f-bd96-ed2282b06f51")
+		)
+		(pin "22"
+			(uuid "e802106c-9205-4a56-b9bf-59460290ca31")
+		)
+		(pin "19"
+			(uuid "757f9963-c559-4ffb-8a40-5a4755f7dc1a")
+		)
+		(pin "20"
+			(uuid "3f429ff6-5f92-443c-922f-16794367d01c")
+		)
+		(pin "21"
+			(uuid "08417b5b-80b8-447b-8755-3131503ecf1c")
+		)
+		(pin "34"
+			(uuid "7f84d241-6a2d-45f6-b49d-464e1e128070")
+		)
+		(pin "23"
+			(uuid "1a45762a-aafe-42b1-9c16-8ee06b18f959")
+		)
+		(pin "50"
+			(uuid "f097593d-bd9a-40db-80bb-02f3f5de69e3")
+		)
+		(pin "47"
+			(uuid "a6ef1e62-8a65-409f-a0cf-8630b258906d")
+		)
+		(pin "26"
+			(uuid "5134c1c8-55f8-49e3-b686-c048c3a3dd29")
+		)
+		(pin "29"
+			(uuid "45110b68-3fb9-41eb-8dd1-17765b4e9d64")
+		)
+		(pin "7"
+			(uuid "24fb81f8-8959-4e22-9ae2-0817fd6c6e7a")
+		)
+		(pin "40"
+			(uuid "915405e1-062e-451d-9363-e9918a1c300c")
+		)
+		(pin "6"
+			(uuid "e47e92a9-34f7-4bed-9de2-cb234efec347")
+		)
+		(pin "24"
+			(uuid "fa31ce3c-3429-4589-aa09-7a4c8a70d904")
+		)
+		(pin "25"
+			(uuid "f4967164-2eed-49ad-ad20-6f3e9bbb5ad7")
+		)
+		(pin "37"
+			(uuid "68d31509-154b-4c5f-8668-ed216f5593e7")
+		)
+		(pin "39"
+			(uuid "f2785c88-a408-46ab-a481-c1bfba84e493")
+		)
+		(pin "MP1"
+			(uuid "68c65ae6-e041-4b3b-8306-a454202e4e70")
+		)
+		(pin "MP4"
+			(uuid "78712184-f0cb-4ec4-9b79-93ea03b62654")
+		)
+		(pin "49"
+			(uuid "ef6b2c05-79f0-4f56-9dde-8443626d59d1")
+		)
+		(pin "46"
+			(uuid "a6f75014-03be-42d0-a2a6-c93110a1bdfc")
+		)
+		(pin "10"
+			(uuid "fd91a639-7e6e-4995-9ae1-24015839182d")
+		)
+		(pin "4"
+			(uuid "41a4924a-9933-44f0-85e8-4b222a7418d3")
+		)
+		(pin "MP6"
+			(uuid "0de89cec-ded0-4378-99cf-4f94b1d661fd")
+		)
+		(pin "11"
+			(uuid "c3d9c73d-5efd-455f-9233-e64a633bdffb")
+		)
+		(pin "MP5"
+			(uuid "4e5165e6-8081-4b08-bfc4-f7be551078be")
+		)
+		(pin "3"
+			(uuid "9a4923c9-d9ee-4bf1-acf4-78634ed9c12f")
+		)
+		(pin "2"
+			(uuid "ffbd680c-4dc3-43de-8e7c-778453f60cf5")
+		)
+		(pin "18"
+			(uuid "c1c5084c-7056-4255-9e24-6a039908c517")
+		)
+		(pin "44"
+			(uuid "6c201dc1-2737-44ca-b77b-5e5f5401d5a2")
+		)
+		(pin "30"
+			(uuid "ac324787-7c7a-41de-9036-04fc83d97ef7")
+		)
+		(pin "1"
+			(uuid "21fc0125-5de6-48a0-9a79-b0e9ed60e538")
+		)
+		(pin "48"
+			(uuid "b439f6ec-15bf-4b17-a008-d462cfd2391b")
+		)
+		(pin "43"
+			(uuid "ef040941-b66f-4b1b-855e-bb95122ad4cb")
+		)
+		(pin "27"
+			(uuid "02ece995-3e1d-43ae-9894-a829e058fc93")
+		)
+		(pin "12"
+			(uuid "47342a6a-264f-40e8-b4b4-8289397bc305")
+		)
+		(pin "5"
+			(uuid "313be813-e559-4e30-b96d-3fc70e1d7ac6")
+		)
+		(pin "35"
+			(uuid "67a1fe07-bb93-4c9e-b52a-62d7c251f310")
+		)
+		(pin "17"
+			(uuid "fc43d646-6e22-432d-84e4-9e1849d67855")
+		)
+		(pin "8"
+			(uuid "929121ab-df08-43fc-901e-5b2e725b68d3")
+		)
+		(pin "16"
+			(uuid "22ccea84-f605-4d6c-8db2-8ad9b88488d6")
+		)
+		(pin "15"
+			(uuid "cd72a1b0-d775-457b-9523-cb7eba9cdc4e")
+		)
+		(pin "32"
+			(uuid "13a49bad-c60a-4b64-8dfc-5ff2014596d9")
+		)
+		(pin "14"
+			(uuid "cefc117f-a174-4868-aa71-e61332b571b4")
+		)
+		(pin "33"
+			(uuid "90446ca8-f91f-477b-a208-e13980b42948")
+		)
+		(pin "36"
+			(uuid "858fe91c-62b7-4bfb-86b2-b883ad6ba259")
+		)
+		(pin "42"
+			(uuid "1b73131f-2673-4a92-81c9-092242036cc5")
+		)
+		(instances
+			(project "cm4-VS035ZSM-driver"
+				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 78.74 265.43 0)
 		(unit 1)
@@ -13408,7 +13388,7 @@
 			(uuid "7d86325c-98bc-4399-874f-156eb6042f2d")
 		)
 		(instances
-			(project ""
+			(project "cm4-VS035ZSM-driver"
 				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
 					(reference "#FLG02")
 					(unit 1)
@@ -14123,7 +14103,7 @@
 			(uuid "5b95e712-4e7b-4715-8c9c-6fdb9daa79e9")
 		)
 		(instances
-			(project ""
+			(project "cm4-VS035ZSM-driver"
 				(path "/9e206693-3fee-4fd4-91e0-40fbbe689518"
 					(reference "#PWR029")
 					(unit 1)

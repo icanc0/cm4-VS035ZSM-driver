@@ -118,6 +118,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -267,11 +268,13 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -559,8 +562,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1161,
         "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -577,8 +580,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.166,
         "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -877,7 +880,7 @@
         "uuid": "9e206693-3fee-4fd4-91e0-40fbbe689518"
       }
     ],
-    "used_designators": "#FLG1-8,R1-4,J1-2,L1-3,D1,#PWR1-34,C1-9,H1-4,TP1,U1-6",
+    "used_designators": "J3",
     "variants": []
   },
   "sheets": [
