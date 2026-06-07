@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "project": "cm4-VS035ZSM-driver.kicad_pro",
+  "current": "2026-06-01_2356",
+  "runs": {
+    "2026-06-01_2356": {
+      "source_hashes": {
+        "cm4-VS035ZSM-driver.kicad_sch": "sha256:9f9ff57f394799f88fe1cee204a1190a2172cdbf08e0f3e0d73ff911281ebcb8",
+        "cm4-VS035ZSM-driver.kicad_pcb": "sha256:5ad99f98dfd16f1dccd60f3a8c37780c350593426a7ddb8e439437ef29cbcc3d",
+        "schematic.json": "sha256:ae737341c8da56e7798bd1622afa0113ac8ba465d0c75da9bce0dba2b1eeff16",
+        "pcb.json": "sha256:b119fa369346c749df1bd5ee3efe659eeb0676fe003398a61a81dcf2764bea50"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "gerber": "gerber.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json",
+        "spice": "spice.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py cm4-VS035ZSM-driver.kicad_sch"
+      },
+      "generated": "2026-06-01T23:59:54+08:00",
+      "pinned": false
+    }
+  }
+}
